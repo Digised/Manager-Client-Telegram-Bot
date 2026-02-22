@@ -1,0 +1,43 @@
+{
+  "manager_bot_token": "TELEGRAM-BOT-TOKEN",
+  "client_bot_token": "TELEGRAM-BOT-TOKEN",
+  
+  "google_credentials_file": "credentials-exp.json",
+  "google_sheet_url": "https://docs.google.com/spreadsheets/d/<YOUR-SHEET-ID>",
+  "worksheet_name": "YOUR-WORKSHEET-NAME",
+  
+  "admin_ids": [
+    "YOUR-ADMIN-ID"
+  ],
+
+  "committee_links": {
+    "committee_name": "TELEGRAM-CHANNEL-LINK"
+  },
+  
+  "rate_limits": {
+    "max_unknown_attempts": "X",
+    "unknown_ban_minutes": "X",
+    "max_logged_requests": "X",
+    "logged_limit_minutes": "X"
+  },
+  
+  "cache_settings": {
+    "max_cache_size": "X",
+    "enable_cache": "X"
+  },
+  
+  "sheets_settings": {
+    "request_delay_seconds": "X",
+    "max_retries": "X"
+  },
+  
+  "messages": {
+    "user_not_found": "MESSAGE",
+    "welcome_user": "MESSAGE",
+    "wrong_password": "MESSAGE",
+    "status_accepted": "MESSAGE",
+    "status_rejected": "MESSAGE",
+    "status_pending": "MESSAGE",
+    "group_link_text": "MESSAGE"
+  }
+}
